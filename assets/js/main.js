@@ -126,7 +126,7 @@ const CONFIG = {
 
   function countUpHero() {
     document.querySelectorAll('.hero [data-count-to]').forEach((el) => {
-      animateNumber(el, +el.dataset.countTo, { suffix: el.dataset.countSuffix || '', prefix: '' });
+      animateNumber(el, +el.dataset.countTo, { suffix: el.dataset.countSuffix || '', prefix: el.dataset.countPrefix || '' });
     });
     document.querySelectorAll('.hero [data-price-count]').forEach((el) => {
       animateNumber(el, +el.dataset.to, { decimals: 2, duration: 1400 });
