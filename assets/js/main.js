@@ -5,7 +5,7 @@
 /* ---------- CONFIGURAÇÃO: edite aqui ---------- */
 const CONFIG = {
   // Link do checkout (Hotmart, Kiwify, Eduzz etc.). Todos os botões usam este link.
-  checkoutUrl: '#',
+  checkoutUrl: 'https://pay.kiwify.com.br/A31zAQY',
   // Abrir o checkout em nova aba?
   checkoutNewTab: false,
   // Repassa os parâmetros UTM da URL da página para o link do checkout
