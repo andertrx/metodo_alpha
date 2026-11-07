@@ -1,4 +1,4 @@
-# Método Alpha — Landing Page
+# Método Alpha: Landing Page
 
 Landing page de vendas da mentoria **Método Alpha** (carreiras policiais).
 HTML, CSS e JavaScript puros, sem build. Para publicar, basta subir a pasta (Vercel, Netlify, Hostinger, cPanel etc.).
