@@ -8,7 +8,7 @@ HTML, CSS e JavaScript puros, sem build. Para publicar, basta subir a pasta (Ver
 index.html              Página
 assets/css/style.css    Estilos
 assets/js/main.js       Motion e interações (+ CONFIG no topo)
-assets/img/             Imagens (logo.svg, hero, aprovados/...)
+assets/img/             Imagens (logo-metodo-alpha.png, logo-emblema.png, logo-texto.png, hero, aprovados/...)
 ```
 
 ## Antes de publicar
@@ -20,7 +20,7 @@ assets/img/             Imagens (logo.svg, hero, aprovados/...)
    - `assets/img/policial-noite.jpg`: faixa de chamada
    - `assets/img/aula-plataforma.jpg`: print da área de membros
    - `assets/img/aprovados/aprovado-01.jpg` … `aprovado-12.jpg`: artes de aprovação (formato quadrado)
-3. **Logo:** `assets/img/logo.svg` é uma versão vetorial provisória. Troque pela logo oficial.
+3. **Logo:** `logo-metodo-alpha.png` (completo), `logo-emblema.png` (só o escudo) e `logo-texto.png` (só o nome), todos com fundo transparente. Se tiver o arquivo original em alta resolução, gere os três de novo a partir dele.
 4. **Preço:** procure por `R$ 230,00` e `8,27` no `index.html`.
 5. **Rodapé:** adicione os links de Termos de uso e Política de privacidade.
 
