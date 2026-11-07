@@ -536,6 +536,11 @@ body.is-ready .hero__scroll { opacity: 1; transition: opacity 1s 2s; }
   padding: 44px 32px 30px;
   box-shadow: 0 40px 80px -30px rgba(0, 0, 0, .8), 0 0 0 6px rgba(242, 183, 5, .05);
 }
+.ticket { scroll-margin: 24px; }
+.ticket.is-highlight { animation: ticketPulse 1.6s .5s var(--ease); }
+.ticket.is-highlight .btn--gold { animation: btnPulse 1.6s .5s var(--ease); }
+@keyframes ticketPulse { 0%, 100% { box-shadow: 0 40px 80px -30px rgba(0, 0, 0, .8), 0 0 0 6px rgba(242, 183, 5, .05); } 35% { box-shadow: 0 40px 80px -30px rgba(0, 0, 0, .8), 0 0 0 10px rgba(242, 183, 5, .35), 0 0 60px rgba(242, 183, 5, .35); } }
+@keyframes btnPulse { 0%, 100% { transform: none; } 35% { transform: scale(1.04); } }
 .ticket__badge { position: absolute; top: -15px; left: 50%; transform: translateX(-50%); background: var(--gold-grad); color: #111; font: 700 12px/1 var(--body); letter-spacing: .18em; text-transform: uppercase; padding: 9px 16px; border-radius: 99px; white-space: nowrap; }
 .ticket__logo { margin: 0 auto 14px; }
 .ticket h3 { font: 700 24px/1.1 var(--head); text-transform: uppercase; letter-spacing: .04em; margin-bottom: 18px; }

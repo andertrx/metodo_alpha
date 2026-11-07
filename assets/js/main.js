@@ -39,6 +39,21 @@ const CONFIG = {
     }
   });
 
+  /* ---------- Botões da página: rolam até a caixa de oferta ---------- */
+  const offerBox = document.getElementById('comprar');
+  document.querySelectorAll('[data-goto-offer]').forEach((a) => {
+    a.addEventListener('click', (e) => {
+      if (!offerBox) return;
+      e.preventDefault();
+      offerBox.classList.add('is-in');
+      offerBox.scrollIntoView({ behavior: reduceMotion ? 'auto' : 'smooth', block: 'center' });
+      offerBox.classList.remove('is-highlight');
+      void offerBox.offsetWidth;
+      offerBox.classList.add('is-highlight');
+      history.replaceState(null, '', location.pathname + location.search + '#comprar');
+    });
+  });
+
   /* ---------- Entrada (intro + hero) ---------- */
   const intro = document.getElementById('intro');
   let seenIntro = false;

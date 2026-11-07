@@ -12,7 +12,7 @@ assets/img/             Imagens (logo-metodo-alpha.png, logo-emblema.png, logo-t
 ```
 
 ## Antes de publicar
-1. **Link do checkout:** em `assets/js/main.js`, preencha `CONFIG.checkoutUrl`. Todos os botões passam a usar esse link, e os parâmetros UTM são repassados automaticamente.
+1. **Link do checkout:** em `assets/js/main.js`, preencha `CONFIG.checkoutUrl` (e o `href` do botão da caixa de oferta, `#comprar`, no `index.html`). Só o botão da caixa de oferta leva ao checkout; os demais botões rolam a página até essa caixa. Os parâmetros UTM são repassados automaticamente.
 2. **Imagens:** as imagens atuais foram recortadas de um print de baixa resolução e são **provisórias**. Substitua pelos arquivos originais **com o mesmo nome**:
    - `assets/img/hero-tatico.jpg`: foto principal (policiais táticos)
    - `assets/img/hero-bg.jpg`: fundo do topo (é desfocado, então qualquer foto escura serve)
